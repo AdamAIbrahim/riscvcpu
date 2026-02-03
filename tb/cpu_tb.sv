@@ -16,7 +16,7 @@ module cpu_tb;
         #20 rst = 0;
 
         // Load program
-        $readmemh("prog.hex", dut.imem);
+        $readmemh("../software/hex/prog.hex", dut.imem);
 
         #500;
 
